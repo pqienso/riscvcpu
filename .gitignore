@@ -1,0 +1,99 @@
+/build
+
+cscope.files
+cscope.out
+tags
+simv
+simv.daidir
+csrc
+ucli.key
+vc_hdrs.h
+INCA_libs
+irun.log
+irun.key
+
+fpga-local-cmd*
+static-fpga-local-cmd
+
+*_compile.log
+*_run.log
+*.vpd
+.simvision
+*.vcd
+*.vcdplus*
+waves.shm
+*.mod.c
+*.order
+*.symvers
+.vscode/
+venv
+*_wrapper.c
+fpga_utils.c
+*~
+.\#*
+\#*
+*._*
+
+*.swp
+*.o
+.nfs*
+*.so
+*.a
+*.ko
+fio
+.coverage
+
+nohup.out
+*.nohup.out
+
+# Generated checkpoints
+checkpoints
+
+# Created when building DDR4 models
+build.lock
+hdk/common/verif/models/.vivado_version
+
+# These get created when you run vivado interactively or batch
+vivado_pid*.str
+vivado*.jou
+vivado*.log
+
+# Pycharm projects
+.idea/
+
+# Eclipse projects
+.project
+.pydevproject
+.settings
+
+# Python compiled code
+*.pyc
+
+# pytest artifacts
+.cache/
+
+# Patches
+patches/*
+
+# Host utils
+sdk/userspace/tools/*
+sdk/userspace/scripts/*
+# Host utils packer script
+pack.sh
+
+# IP output
+*.xci.bak
+.tmp_log
+compile.log
+
+# Slurm log
+slurm*.out
+
+# RTD Builds
+docs-rtd/build/*
+
+# HLx files
+*.tmp
+**/example_projects/
+*.pb
+
